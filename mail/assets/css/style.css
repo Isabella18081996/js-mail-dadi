@@ -1,14 +1,14 @@
 body{
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 div{
   width: 60%;
   margin: auto;
   height: 200px;
-  background-color: #fafad2;
+  background-color: white;
   text-align: center;
   font-size: 30px;
-  border: 10px dashed #ba55d3;
+  border: 10px dashed white;
   border-radius: 20px;
 }

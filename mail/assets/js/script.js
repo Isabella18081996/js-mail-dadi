@@ -27,9 +27,13 @@ for (var i=0; i<mails.length; i++){
 
 if(accesso){
   document.getElementById('testo').innerHTML = "Hai diritto ad accedere. <br>La tua email è presente nel nostro database";
-  document.getElementById('testo').style.color = '#fffafa';
-  document.getElementById('div').style.backgroundColor = "#dda0dd";
+  document.getElementById('testo').style.color = '#b22222';
+  document.getElementById('div').style.backgroundColor = "#e9967a";
+  document.getElementById('div').style.borderColor = "#800000";
 
 }else{
-  document.getElementById('testo').innerHTML = "Non hai diritto ad accedere. <br>La tua email non è presente nel nostro database."
+  document.getElementById('testo').innerHTML = "Non hai diritto ad accedere. <br>La tua email non è presente nel nostro database.";
+  document.getElementById('testo').style.color = '#008080';
+  document.getElementById('div').style.backgroundColor = "#b0e0e6";
+  document.getElementById('div').style.borderColor = "#4169e1";
 }
