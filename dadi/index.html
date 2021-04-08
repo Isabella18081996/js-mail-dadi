@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <title>Mail</title>
-</head>
-<body>
-  
-  <script src="assets/js/script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Gioco Dadi</title>
+  </head>
+  <body>
+    <div class="contenitore">
+    
+      <div class="row-dadi"></div>
+
+
+      <h1>Benvenuto! Sarà la fortuna dalla tua parte?</h1>
+      <p class="titoletto">
+        Lancia i dadi e lo scoprirai...<br />
+        <input
+          type="button"
+          onclick="casuale()"
+          value="Genera numero casuale"
+        />
+      </p>
+      <p>
+        <span>Il tuo numero è: <span id="numero1"></span></span><br />
+        <span class="span2">Il numero del computer è: <span id="numero2"></span></span><br />
+        <span id="risultato"></span>
+      </p>
+
+      <div class="row-dadi"></div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>

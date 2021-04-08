@@ -1,0 +1,85 @@
+body{
+  background-color:#f0f8ff;
+}
+
+.contenitore{
+  /* padding-top: 30px; */
+  /* padding-bottom: 30px; */
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  background-color: #6495ed;
+  border-radius: 20px;
+  border-top: 10px double #000080;
+  border-bottom: 10px double #000080;
+  border-right: 2px solid #000080;
+  border-left: 2px solid #000080;
+}
+
+
+
+h1{
+  color: white;
+  text-transform: uppercase;
+}
+
+.titoletto{
+  color:#191970;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+input{
+  font-size: 15px;
+  margin-top:20px;
+  height: 30px;
+  border:1px groove #000080;
+  border-radius: 10px;
+  background-color: #f5fffa;
+  color:#000080;
+  font-weight: 600;
+}
+
+p{
+  font-size: 20px;
+  color:#f5fffa;
+}
+
+#risultato{
+  margin: 20px auto;
+  color:red;
+  line-height: 100px;
+  text-align: center;
+  padding: 0;
+  font-size: 35px;
+  
+}
+
+span{
+  padding-right: 65px;
+}
+
+.span2{
+  padding-left: 80px;
+}
+
+#numero1{
+  padding-left: 50px;
+}
+
+#numero2{
+  padding-left: 50px;
+}
+
+img{
+  width: 80px;
+}
+
+.row-dadi{
+  width: 100%;
+  height: 80px;
+  background-image: url(../../img/dicenoshadow.svg);
+  background-repeat: repeat;
+  background-size: contain;
+  
+}
